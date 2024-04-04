@@ -3,7 +3,7 @@
 HINT: To fiure out which Bootstrap components/snippets are used. Refer to the PDF below:
 https://github.com/appbrewery/tindog/blob/main/Bootstrap-snippets.pdf
 
-done this project and made my own spinoff of the Tindogs but cats
+Done this project and made my own spinoff of the Tindogs but cats.
 
 ##Preview
 
