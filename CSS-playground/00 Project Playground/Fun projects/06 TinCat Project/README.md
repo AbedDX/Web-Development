@@ -3,6 +3,12 @@
 HINT: To fiure out which Bootstrap components/snippets are used. Refer to the PDF below:
 https://github.com/appbrewery/tindog/blob/main/Bootstrap-snippets.pdf
 
+done this project and here is my version of the Tindogs but cats 
+
+##Preview
+
+Check out the preview of the project [here](https://htmlpreview.github.io/?https://github.com/AbedDX/Web-Development/blob/main/CSS-playground/00%20Project%20Playground/Fun%20projects/06%20TinCat%20Project/index.html).
+
 ## SVGs:
 
 Apple Logo:
