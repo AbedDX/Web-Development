@@ -745,6 +745,31 @@ strong {
   SKILL & HOBBIES           
 -----------------------------------------*/
 
+/* Custom styles for skill cards */
+.skill-card {
+  margin-bottom: 20px;
+  background-color: #f8f9fa;
+  border-radius: var(--border-radius-medium);
+  padding: 20px;  /* Adjust the padding as needed */  
+}
+
+.skill-card .card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 10px; 
+
+}
+
+.skill-card .card-subtitle {
+  font-size: 2rem;
+  color: #0088ff; /* Bootstrap's text-muted color */
+  margin-bottom: 10px;
+}
+
+.skill-card .card-text {
+  font-size: 1rem;
+}
+
 
 /*---------------------------------------
   CONTACT               
