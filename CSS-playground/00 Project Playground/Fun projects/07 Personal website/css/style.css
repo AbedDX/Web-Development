@@ -139,7 +139,13 @@ strong {
 
 .section-bg {
   background-color: var(--section-bg-color);
-}
+  background-image: url('../img/panel.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  }
+
 
 .section-overlay {
   background-color: var(--dark-color);
@@ -602,7 +608,13 @@ strong {
 -----------------------------------------*/
 .about-section {
   background-color: var(--secondary-color);
+  background-image: url('../img/panel.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   position: relative;
+  overflow: hidden; /* Add this line */ 
 }
 
 .about-section .ratio {
@@ -682,10 +694,10 @@ strong {
 
 
 /*---------------------------------------
-  OUR MENU              
+  HOBBiES              
 -----------------------------------------*/
 .menu-section {
-  background-image: url('../images/happy-waitress-giving-coffee-customers-while-serving-them-coffee-shop.jpg');
+  background-image: url('../img/panel.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -744,6 +756,13 @@ strong {
 /*---------------------------------------
   SKILL & HOBBIES           
 -----------------------------------------*/
+.contact-section {
+  background-image: url('../img/panel.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
 
 /* Custom styles for skill cards */
 .skill-card {
@@ -775,16 +794,13 @@ strong {
   CONTACT               
 -----------------------------------------*/
 .contact-section {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.45), rgba(188, 108, 37, 1)), url('../images/young-female-barista-wear-face-mask-serving-take-away-hot-coffee-paper-cup-consumer-cafe.jpg');
+  background-image: url('../img/panel.jpg');
+  background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
-.google-map {
-  border-radius: var(--border-radius-medium);
-  filter: grayscale(100);
-}
 
 .contact-block-wrap {
   background: var(--primary-color);
@@ -830,6 +846,11 @@ strong {
 -----------------------------------------*/
 .site-footer {
   background-color: var(--primary-color);
+  background-image: url('../img/panel.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   padding-top: 100px;
   padding-bottom: 100px;
 }
@@ -856,6 +877,7 @@ strong {
 }
 
 .copyright-text {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
   color: rgba(255, 255, 255, 0.75);
   font-size: var(--menu-font-size);
 }
