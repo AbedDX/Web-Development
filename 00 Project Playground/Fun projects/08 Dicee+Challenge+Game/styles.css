@@ -1,12 +1,12 @@
 .container {
-  width: 70%;
+  width: 50%;
   margin: auto;
   text-align: center;
 }
 
 .dice {
   text-align: center;
-  display: inline-block;
+  display: inline-block
 
 }
 
@@ -18,8 +18,24 @@ h1 {
   margin: 30px;
   font-family: 'Lobster', cursive;
   text-shadow: 5px 0 #232931;
-  font-size: 8rem;
+  font-size: 5rem;
   color: #4ECCA3;
+}
+
+.btn{
+  margin: 100px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 10px 0 #232931;
+  font-size: 5rem;
+  border-radius: 25px;
+  background-color: #393E46;
+  border: 3px solid #4ECCA3;
+  color: #4ECCA3;
+  display: block;
+  margin: 5% auto;
+  text-align: center;
+  width: 25%;
+  
 }
 
 p {
@@ -27,10 +43,13 @@ p {
   color: #4ECCA3;
   font-family: 'Indie Flower', cursive;
 }
+/*make 2 images same size*/
 
-img {
+.img {
   width: 80%;
+  margin: 0;
 }
+
 
 footer {
   margin-top: 5%;
