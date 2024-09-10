@@ -1,5 +1,5 @@
 {
-  "name": "4.3-partials",
+  "name": "14-partials",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,7 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "abeddx",
   "license": "ISC",
   "dependencies": {
     "ejs": "^3.1.9",
