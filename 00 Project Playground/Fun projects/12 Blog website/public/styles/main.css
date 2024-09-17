@@ -1,0 +1,102 @@
+/* Variables */
+
+:root {
+  --primary-color: #3498db;
+  --secondary-color: #f1c40f;
+  --background-color: #f9f9f9;
+  --text-color: #333;
+  --font-family: Arial, sans-serif;
+  --font-size: 16px;
+  --line-height: 1.5;
+}
+
+/* Typography */
+
+body {
+  font-family: var(--font-family);
+  font-size: var(--font-size);
+  line-height: var(--line-height);
+}
+
+h1, h2, h3 {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+p {
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+/* Colors */
+
+.primary-color {
+  color: var(--primary-color);
+}
+
+.secondary-color {
+  color: var(--secondary-color);
+}
+
+/* Layout */
+
+.container {
+  position: absolute;
+  top: 0;
+  left: 150px;
+  width: calc(100% - 300px);
+  text-align: left;
+  max-width: 800px;
+  margin: 0;
+  background-color: #f5f5f5;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+}
+
+/* Components */
+
+/* Navbar */
+
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--primary-color);
+  color: #333;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+/* Footer */
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Image */
+
+.blogimg {
+  border-radius: 50%;
+  max-width: 100%;
+  height: auto;
+  padding: 20px;
+  border: 2px solid #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
