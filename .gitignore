@@ -13,3 +13,5 @@
 
 # Ignore .env file
 .env
+#
+delete_indentifiers.sh
