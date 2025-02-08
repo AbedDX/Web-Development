@@ -1,0 +1,26 @@
+{
+  "canisters": {
+    "memeCoinBank_backend": {
+      "main": "src/memeCoinBank_backend/main.mo",
+      "type": "motoko"
+    },
+    "memeCoinBank_frontend": {
+      "dependencies": [
+        "memeCoinBank_backend"
+      ],
+      "source": [
+        "src/memeCoinBank_frontend/dist"
+      ],
+      "type": "assets",
+      "workspace": "memeCoinBank_frontend"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
