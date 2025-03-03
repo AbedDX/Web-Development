@@ -1,0 +1,26 @@
+{
+  "canisters": {
+    "noteApp_backend": {
+      "main": "src/noteApp_backend/main.mo",
+      "type": "motoko"
+    },
+    "noteApp_frontend": {
+      "dependencies": [
+        "noteApp_backend"
+      ],
+      "source": [
+        "src/noteApp_frontend/dist"
+      ],
+      "type": "assets",
+      "workspace": "noteApp_frontend"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
